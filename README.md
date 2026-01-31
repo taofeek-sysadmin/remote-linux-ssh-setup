@@ -12,6 +12,21 @@ using Fail2ban on a Linux system.
 
 ## Usage
 
-```bash
+    bash
 sudo ./scripts/setup.sh
 sudo ./scripts/verify.sh
+
+# Architecture
+GitHub Repo
+   ↓ (clone)
+Linux VM (CentOS Stream 10)
+   ├── SSH hardening
+   ├── Fail2ban
+   ├── setup.sh
+   ├── verify.sh
+   └── GitHub Actions (lint + validation)
+
+Author
+Taofeek Komolafe
+DevOps | Sys Admin
+
